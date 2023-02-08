@@ -34,7 +34,7 @@ final class RMTabBarViewController: UITabBarController {
                                             image: UIImage(systemName: "person.2"),
                                             tag: 1)
         nav2.tabBarItem = UITabBarItem(title: "Locatins",
-                                            image: UIImage(systemName: "globe.central.south.asia"),
+                                            image: UIImage(systemName: "globe.europe.africa"),
                                             tag: 2)
         nav3.tabBarItem = UITabBarItem(title: "Episode",
                                             image: UIImage(systemName: "tv"),
