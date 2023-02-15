@@ -1,5 +1,5 @@
 //
-//  CharacterListViewViewModel.swift
+//  RMCharacterListViewViewModel.swift
 //  RickAndMorty
 //
 //  Created by Aleksandr Aniskin on 12.02.2023.

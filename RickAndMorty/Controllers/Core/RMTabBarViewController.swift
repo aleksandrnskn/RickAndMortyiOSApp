@@ -9,12 +9,12 @@ import UIKit
 
 /// Controller to house tabs and root tab controllers
 final class RMTabBarViewController: UITabBarController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpTabs()
     }
-
+    
     private func setUpTabs() {
         let charactersVC = RMCharacterViewController()
         let locatinsVC = RMLocationViewController()
@@ -32,17 +32,17 @@ final class RMTabBarViewController: UITabBarController {
         let nav4 = UINavigationController(rootViewController: settingsVC)
         
         nav1.tabBarItem = UITabBarItem(title: "Characters",
-                                            image: UIImage(systemName: "person.2"),
-                                            tag: 1)
+                                       image: UIImage(systemName: "person.2"),
+                                       tag: 1)
         nav2.tabBarItem = UITabBarItem(title: "Locatins",
-                                            image: UIImage(systemName: "globe.europe.africa"),
-                                            tag: 2)
+                                       image: UIImage(systemName: "globe.europe.africa"),
+                                       tag: 2)
         nav3.tabBarItem = UITabBarItem(title: "Episode",
-                                            image: UIImage(systemName: "tv"),
-                                            tag: 3)
+                                       image: UIImage(systemName: "tv"),
+                                       tag: 3)
         nav4.tabBarItem = UITabBarItem(title: "Settings",
-                                            image: UIImage(systemName: "gearshape.2"),
-                                            tag: 4)
+                                       image: UIImage(systemName: "gearshape.2"),
+                                       tag: 4)
         
         
         for nav in [nav1, nav2, nav3, nav4] {
