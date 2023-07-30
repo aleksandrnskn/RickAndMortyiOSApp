@@ -103,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				231C91832992F63D00CDCF0F /* Resources */,
-				231C91842992F65A00CDCF0F /* Managers */,
 				231C91892992F6AF00CDCF0F /* APIClient */,
 				231C91882992F69B00CDCF0F /* ViewModels */,
 				231C91872992F69100CDCF0F /* Views */,
@@ -124,13 +123,6 @@
 				231C91AE2998FA2500CDCF0F /* Extensions.swift */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		231C91842992F65A00CDCF0F /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Managers;
 			sourceTree = "<group>";
 		};
 		231C91852992F67C00CDCF0F /* Controllers */ = {
